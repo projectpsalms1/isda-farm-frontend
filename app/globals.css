@@ -1,0 +1,443 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: #111;
+
+}
+
+
+
+@keyframes fish1 {
+  0% {
+    right: -1%;
+    top:0%;
+    transform:rotate(-45deg)
+  }
+  40%{
+    top:70%;
+    transform:rotate(45deg)
+
+  }
+  100% {
+    right: 100%;
+    top:0%;
+    transform:rotate(45deg)
+
+  }
+}
+
+.fish1 {
+  animation: fish1 30s ease-in-out infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fish2 {
+  0% {
+    right: -1%;
+    top:0%;
+    transform:rotate(-45deg)
+  }
+  40%{
+    top:70%;
+    transform:rotate(45deg)
+   
+  }
+  100% {
+    right: 100%;
+    top:0%;
+    transform:rotate(45deg)
+
+  }
+}
+
+.fish2 {
+  animation: fish2 25s ease-in-out infinite;
+}
+
+
+
+
+
+@keyframes fish3 {
+  0% {
+    bottom: -1%;
+  
+    transform:rotate(29deg)
+  }
+  40%{
+    bottom:70%;
+    transform:rotate(40deg)
+
+  }
+  100% {
+    
+    top:-50%;
+    transform:rotate(40deg)
+
+  }
+}
+
+.fish3 {
+  animation: fish3 45s ease-in-out infinite;
+}
+
+
+
+
+@keyframes fish4 {
+  0% {
+    bottom: -1%;
+   right:10%;
+    transform:rotate(0deg)
+  }
+  40%{
+    bottom:70%;
+    transform:rotate(20deg);
+   right:50%;
+  }
+  100% {
+   
+    top:-100%;
+    transform:rotate(0deg);
+   right:-10%;
+  }
+}
+
+.fish4 {
+  animation: fish4 50s ease-in-out infinite;
+}
+
+
+
+
+@keyframes fish5 {
+  0% {
+    right: 15%;
+  
+  }
+  40%{
+   right:50%;
+
+  }
+  100% {
+    right: 100%;
+    top:0%;
+    transform:rotate(30deg)
+
+  }
+}
+
+.fish5 {
+  animation: fish5 45s ease-in-out infinite;
+}
+
+
+@keyframes fish6 {
+  0% {
+    right: 4%;
+   top:50%;
+  }
+  40%{
+   right:50%;
+   top:10%;
+  }
+  100% {
+    right: 100%;
+    top:0%;
+    transform:rotate(30deg)
+
+  }
+}
+
+.fish6 {
+  animation: fish6 50s ease-in-out infinite;
+}
+
+
+@keyframes b1 {
+  0% {
+  left:10%;
+ bottom:-1%
+  }
+  100% {
+    bottom:110%;
+    left:10%;
+
+  }
+}
+
+.b1 {
+  animation: b1 14s ease-in-out infinite;
+}
+
+@keyframes b2 {
+  0% {
+  left:20%;
+ bottom:-1%
+  }
+  100% {
+    bottom:110%;
+    left:20%;
+
+  }
+}
+
+.b2 {
+  animation: b2 17s ease-in-out infinite;
+}
+
+
+@keyframes b3 {
+  0% {
+  left:30%;
+ bottom:-1%
+  }
+  100% {
+    bottom:110%;
+    left:30%;
+
+  }
+}
+
+.b3 {
+  animation: b3 10s ease-in-out infinite;
+}
+
+@keyframes b4{
+  0% {
+  left:40%;
+ bottom:-1%
+  }
+  100% {
+    bottom:110%;
+    left:40%;
+
+  }
+}
+
+.b4 {
+  animation: b4 15s ease-in-out infinite;
+}
+
+@keyframes b5 {
+  0% {
+  left:50%;
+ bottom:-1%
+  }
+  100% {
+    bottom:110%;
+    left:50%;
+
+  }
+}
+
+.b5 {
+  animation: b5 20s ease-in-out infinite;
+}
+
+@keyframes b6 {
+  0% {
+  left:60%;
+ bottom:-1%
+  }
+  100% {
+    bottom:110%;
+    left:60%;
+
+  }
+}
+
+.b6 {
+  animation: b6 10s ease-in-out infinite;
+}
+
+@keyframes b7 {
+  0% {
+  left:70%;
+ bottom:-1%
+  }
+  100% {
+    bottom:110%;
+    left:70%;
+
+  }
+}
+
+.b7 {
+  animation: b7 18s ease-in-out infinite;
+}
+
+@keyframes b8 {
+  0% {
+  left:80%;
+ bottom:-1%
+  }
+  100% {
+    bottom:110%;
+    left:80%;
+
+  }
+}
+
+.b8 {
+  animation: b8 26s ease-in-out infinite;
+}
+
+@keyframes b9 {
+  0% {
+  left:90%;
+ bottom:-1%
+  }
+  100% {
+    bottom:110%;
+    left:90%;
+
+  }
+}
+
+.b9 {
+  animation: b9 15s ease-in-out infinite;
+}
+
+@keyframes b10 {
+  0% {
+  left:100%;
+ bottom:-1%
+  }
+  100% {
+    bottom:110%;
+    left:100%;
+
+  }
+}
+
+.b10 {
+  animation: b10 8s ease-in-out infinite;
+}
+
+@keyframes b11 {
+  0% {
+  left:100%;
+ bottom:-1%
+  }
+  100% {
+    bottom:110%;
+    left:100%;
+
+  }
+}
+
+.b11 {
+  animation: b11 10s ease-in-out infinite;
+}
+
+@keyframes addbal{
+  0%{
+    transform:scale(0.9)
+  }
+  100%{
+    transform:scale(1);
+  }
+}
+
+.addIcon{
+  animation : addbal .5s ease-in-out infinite;
+}
+
+
+
+.profile_photo::placeholder{
+  background-image:url(../public/images/gallery.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+  width:40px;
+  height:40px;
+}
+
+.menu_wrap_web{
+  display:flex;
+}
+.menu_wrap{
+  display:none;
+}
+.navBtn{
+  display:none
+}
+.tr_icon{
+  display:block;
+}
+@media screen and (max-width:768px){
+  .tr_icon{
+    display:none;
+  }
+  .cat_wrap{
+    flex-direction:column;
+    width:95%;
+    margin:0 auto;
+  }.cat_card{
+    width:120px ;
+    height:120px
+  }
+  .hero_p{
+    width:350px;
+  }
+  .naviwrap{display:flex;justify-content: space-between;}
+  .navBtn{
+      display:block  }
+  .bl_wrap{
+    flex-direction:column;
+  }
+  .trans_card{
+    width:96%;
+  }
+  .menu_wrap{
+    position: absolute;
+    flex-direction: column;
+    background: #056aa6;
+    padding: 20px;
+    height: 422px;
+    top: 0%;
+    left: 0;
+    width: 80% !important;
+    justify-content: start;
+    align-items: start;
+    padding-left: 35px;
+    z-index:12;
+    display:flex;
+  }
+  .menu_wrap a{
+    margin:16px 0px;
+    font-size:18px
+  }
+  .menu_wrap_web{
+    display:none;
+  }
+}
